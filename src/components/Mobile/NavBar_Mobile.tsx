@@ -12,7 +12,7 @@ const NavBarMobile = () => {
         className="navbar fixed-top bg-scrolled d-flex d-md-none"
         id="NavBar"
       >
-        <a href="/Home#Welcome">
+        <a href="/#Welcome">
           <img
             className="navbar-icon nav-icon-primary"
             src="/Image/Logo/Logo_5C3D2E.png"
@@ -37,28 +37,28 @@ const NavBarMobile = () => {
             />
             <HashLink
               onClick={() => setNavbarMenu(false)}
-              to="/Home#Welcome"
+              to="/#Welcome"
               className="textlink subtitle"
             >
               Home
             </HashLink>
             <HashLink
               onClick={() => setNavbarMenu(false)}
-              to="/Home#About"
+              to="/#About"
               className="textlink subtitle"
             >
               About
             </HashLink>
             <HashLink
               onClick={() => setNavbarMenu(false)}
-              to="/Home#Projects"
+              to="/#Projects"
               className="textlink subtitle"
             >
               Projects
             </HashLink>
             <HashLink
               onClick={() => setNavbarMenu(false)}
-              to="/Home#Contact"
+              to="/#Contact"
               className="textlink subtitle"
             >
               Contact

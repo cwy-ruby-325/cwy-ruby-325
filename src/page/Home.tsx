@@ -22,7 +22,7 @@ function Home() {
             share my experiences and insights. <br />I warmly welcome anyone who
             wishes to chat and connect.
           </p>
-          <a href="#Contact" className="button button-primary button-lg">
+          <a href="/#Contact" className="button button-primary button-lg">
             Chat with me <img src="/ButtonIcon/message-circle.svg" alt="" />
           </a>
         </div>

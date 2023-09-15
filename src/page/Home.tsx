@@ -122,6 +122,7 @@ function Home() {
                       <a
                         href="mailto:cwy.ruby.325@gmail.com"
                         className="textlink-body"
+                        target="_blank"
                       >
                         cwy.ruby.325@gmail.com
                       </a>
@@ -140,6 +141,7 @@ function Home() {
                       <a
                         href="https://wa.me/85291594051"
                         className="textlink-body"
+                        target="_blank"
                       >
                         +852 91594051
                       </a>
@@ -161,6 +163,7 @@ function Home() {
                       <a
                         href="https://www.linkedin.com/in/cwy-ruby/"
                         className="textlink-body"
+                        target="_blank"
                       >
                         linkedin.com/in/cwy-ruby
                       </a>
@@ -179,6 +182,7 @@ function Home() {
                       <a
                         href="https://github.com/cwy-ruby-325"
                         className="textlink-body"
+                        target="_blank"
                       >
                         github.com/cwy-ruby-325
                       </a>

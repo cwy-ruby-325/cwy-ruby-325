@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar';
+import NavBar from '../components/Desktop/NavBar_Desktop';
 import ProjectCardViewDesktop from '../components/Desktop/ProjectCardView_Desktop';
 import ProjectCardViewMobile from '../components/Mobile/ProjectCardView_Mobile';
 import Footer from '../components/Footer';

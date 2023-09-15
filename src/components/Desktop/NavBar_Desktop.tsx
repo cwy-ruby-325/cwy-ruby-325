@@ -1,5 +1,5 @@
 import { HashLink } from 'react-router-hash-link';
-import NavBarMobile from './Mobile/NavBar_Mobile';
+import NavBarMobile from '../Mobile/NavBar_Mobile';
 
 function NavBar() {
   return (

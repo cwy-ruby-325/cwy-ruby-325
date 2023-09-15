@@ -1,4 +1,4 @@
-import NavBar from '../components/NavBar';
+import NavBar from '../components/Desktop/NavBar_Desktop';
 import Footer from '../components/Footer';
 import ProjectFeatureOdd from '../components/ProjectFeature_Odd';
 import ProjectFeatureEven from '../components/ProjectFeature_Even';

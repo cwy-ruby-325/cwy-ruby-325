@@ -89,7 +89,6 @@ p {
 /* ////////// Nav Bar ////////// */
 /* Overall Setting */
 .navbar {
-  transition: all 0.5s;
   padding: 16px 80px !important;
   position: relative;
 }
@@ -106,6 +105,7 @@ p {
 }
 .navbar .textlink {
   margin-left: 40px;
+  text-decoration: none;
 }
 .navbar-mobile .textlink {
   margin-left: 0px;
@@ -122,8 +122,8 @@ p {
   cursor: pointer;
 }
 .navbar-mobile {
-  background-color: #fffbf5;
-  opacity: 100% !important;
+  background-color: #5c3d2e;
+  opacity: 95% !important;
   top: 0;
   right: 0;
   position: fixed;
@@ -132,12 +132,16 @@ p {
   width: 30vw;
 }
 .navbar-mobile-content {
-  margin-top: 30px;
+  margin: 40px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 20px;
   height: 100%;
+}
+.navbar-mobile-content .textlink {
+  color: #fffbf5;
+  text-decoration: none;
 }
 .navbar-mobile-img {
   width: 40px;
@@ -150,13 +154,13 @@ p {
   margin-bottom: 60px;
 }
 .navbar-mobile-text {
-  color: #5c3d2e;
+  font-family: 'Oswald', sans-serif;
+  color: #fffbf5;
   margin: 0px;
-  font-size: 18px !important;
-  font-weight: 500 !important;
+  font-size: 20px !important;
 }
 .navbar-mobile-icon {
-  color: #5c3d2e;
+  color: #fffbf5;
   margin: 0px;
   font-size: 30px !important;
   font-weight: 500 !important;
@@ -180,6 +184,11 @@ p {
   }
   .navbar-icon {
     width: 40px;
+  }
+}
+@media (max-width: 558px) {
+  .navbar-mobile-text {
+    display: none;
   }
 }
 
@@ -224,7 +233,6 @@ a.textlink-body {
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
-  text-decoration: none;
   transition: all 0.5s;
 }
 a.textlink {
@@ -505,6 +513,23 @@ button.button img {
   border-radius: 80px 8px 60px 8px;
   background-color: #b85c38;
 }
+/* Responsive */
+@media (max-width: 768px) {
+  .hobby-frame-left-bottom {
+    order: 4;
+  }
+  .hobby-frame-left-top,
+  .hobby-frame-right-top,
+  .hobby-frame-left-bottom,
+  .hobby-frame-right-bottom {
+    padding: 0 !important;
+  }
+  .hobby-frame-left-top,
+  .hobby-frame-right-top,
+  .hobby-frame-right-bottom {
+    padding-bottom: 16px !important;
+  }
+}
 
 /* ////////// Contact Form ////////// */
 /* Overall Setting */
@@ -657,6 +682,7 @@ form textarea:focus {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 24px !important;
 }
 .contact-info-title {
   margin-bottom: 8px;
@@ -666,9 +692,6 @@ form textarea:focus {
 .contact-info-icon {
   margin-right: 8px;
   height: 24px;
-}
-.contact-info-group-row1 {
-  margin-bottom: 24px !important;
 }
 /* Responsive */
 @media (max-width: 959px) {
@@ -727,21 +750,12 @@ form textarea:focus {
   .contact {
     padding: 40px 16px !important;
   }
-  .hobby-frame-left-top,
-  .hobby-frame-right-top,
-  .hobby-frame-left-bottom,
-  .hobby-frame-right-bottom {
-    padding: 0 !important;
-  }
-  .hobby-frame-left-top,
-  .hobby-frame-right-top,
-  .hobby-frame-left-bottom {
-    padding-bottom: 16px !important;
-  }
   .contact-content {
     margin-bottom: 40px;
   }
 }
+
+
 /* ////////// Projects & Project Detail ////////// */
 /* Header & Back to Projects */
 .projects-img-frame,

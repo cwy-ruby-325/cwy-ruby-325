@@ -3,7 +3,7 @@ import { RxCross1 } from 'react-icons/rx';
 import { useState } from 'react';
 
 const NavBarMobile = () => {
-  const imageSrc = new URL('/Image/Logo/Logo_5C3D2E.png', import.meta.url).href;
+  const imageSrc = new URL('/Image/Logo/Logo_White.png', import.meta.url).href;
   const [navbarMenu, setNavbarMenu] = useState(false);
 
   return (

@@ -18,9 +18,11 @@ function Home() {
           <p className="welcome-text">
             I am Ruby Chan, a passionate, cheerful girl from Hong Kong. I enjoy
             taking on challenges and trying new things. <br />
-            Although I can be a bit introverted at times, I am always eager to
-            share my experiences and insights. <br />I warmly welcome anyone who
-            wishes to chat and connect.
+            <span>
+              Although I can be a bit introverted at times, I am always eager to
+              share my experiences and insights. <br />
+            </span>
+            I warmly welcome anyone who wishes to chat and connect.
           </p>
           <a href="/#Contact" className="button button-primary button-lg">
             Chat with me <img src="/ButtonIcon/message-circle.svg" alt="" />
@@ -106,7 +108,7 @@ function Home() {
                 I'm eager to grow and seize opportunities.
               </div>
               <div className="contact-info-group">
-                <div className="row contact-info-group-row1">
+                <div className="row">
                   <div className="contact-info col-12 col-md-6" id="EmailInfo">
                     <div className="contact-info-title title">
                       <img
@@ -143,8 +145,6 @@ function Home() {
                       </a>
                     </p>
                   </div>
-                </div>
-                <div className="row contact-info-group-row2">
                   <div
                     className="contact-info col-12 col-md-6"
                     id="LinkedInInfo"

@@ -4,7 +4,7 @@ import Home from './page/Home';
 import Projects from './page/Projects';
 import ProjectDetail from './page/ProjectDetail';
 import { ProjectDetailData } from './data/ProjectDetailData';
-import NavBar from './components/NavBar';
+import NavBar from './components/Desktop/NavBar_Desktop';
 import NavBarMobile from './components/Mobile/NavBar_Mobile';
 
 function App() {

@@ -11,7 +11,7 @@ export const ProjectDetailData: DetailPage[] = [
       headerColor: '#fff',
       myRoles: [
         {
-          item: 'UX/UI',
+          item: 'UI/UX',
         },
       ],
       platforms: [
@@ -96,7 +96,7 @@ export const ProjectDetailData: DetailPage[] = [
       headerColor: '',
       myRoles: [
         {
-          item: 'UX/UI',
+          item: 'UI/UX',
         },
       ],
       platforms: [
@@ -212,6 +212,12 @@ export const ProjectDetailData: DetailPage[] = [
           title: 'Layout Design',
           text: "As a Digital Media student with a knack for graphic design, I embraced the role of designer in the column on Bei Bei Bookhouse. Drawing inspiration from the cozy and inviting ambiance of the bookhouse, I opted for a collage-style approach to craft a charming mini-house design. The predominant green theme was carefully chosen to evoke feelings of nature, tranquillity, and comfort, aligning with the bookhouse's warm atmosphere. Through thoughtful design choices, I aimed to visually capture the essence of Bei Bei Bookhouse and create an engaging visual experience for readers, enhancing their connection to the subject matter.",
         },
+        {
+          image:
+            '/Image/Project_Detail/105_Magazine/BG_Feature4_105_Magazine.jpeg',
+          title: 'Additional Extracurricular Activities',
+          text: "I gained valuable experience by participating in additional activities such as being a member of the book creation team and assisting at a book fair. These experiences allowed me to apply my design skills, collaborate with diverse teams, and understand the publishing industry. Exploring different aspects of media production, including video, animation, web, and app production, storytelling, IT programming, and design concepts, has helped me develop a well-rounded perspective. These experiences, combined with my academic knowledge, have fueled my passion for creating impactful media content and make me a strong candidate for a career in media production.",
+        }
       ],
       video: '',
     },

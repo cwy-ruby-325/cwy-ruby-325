@@ -5,7 +5,7 @@ export const ProjectCardData_Desktop: Card[] = [
     image: '/Image/Projects/Projects_Innopage.png',
     labels: [
       {
-        text: 'UX/UI',
+        text: 'UI/UX',
         color: '#2F3235',
       },
     ],
@@ -18,7 +18,7 @@ export const ProjectCardData_Desktop: Card[] = [
     image: '/Image/Projects/Projects_Polelosophy.png',
     labels: [
       {
-        text: 'UX/UI',
+        text: 'UI/UX',
         color: '#2F3235',
       },
     ],
@@ -147,7 +147,7 @@ export const ProjectCardData_Desktop: Card[] = [
         color: '#4F0205',
       },
       {
-        text: 'UX/UI',
+        text: 'UI/UX',
         color: '#2F3235',
       },
       {
@@ -156,7 +156,7 @@ export const ProjectCardData_Desktop: Card[] = [
       },
     ],
     title: 'Jervois Solutions Limited',
-    text: "As part of the UX/UI Course program, this placement involves a digital marketing company. The primary responsibility is to design and develop their website for business promotion. Additionally, I was assigned as UX/UI designers to provide feedback on their customers' website designs.",
+    text: "As part of the UI/UX Course program, this placement involves a digital marketing company. The primary responsibility is to design and develop their website for business promotion. Additionally, I was assigned as UI/UX designers to provide feedback on their customers' website designs.",
     link: '/Projects/JerviosSolution',
     isButton: false,
   },
@@ -177,7 +177,7 @@ export const ProjectCardData_Desktop: Card[] = [
     image: '/Image/Projects/Projects_GameStart.png',
     labels: [
       {
-        text: 'UX/UI',
+        text: 'UI/UX',
         color: '#2F3235',
       },
     ],

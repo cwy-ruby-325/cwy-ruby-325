@@ -50,9 +50,9 @@ function Home() {
               <br />
               To bolster my competitiveness in the job market, I proactively
               enrolled in different boot camps focused on front-end web
-              development, UX/UI design, and digital marketing. These immersive
+              development, UI/UX design, and digital marketing. These immersive
               experiences have equipped me with adaptability and versatility.
-              Today, I'm deeply passionate about UX/UI, where I aim to craft
+              Today, I'm deeply passionate about UI/UX, where I aim to craft
               user-friendly designs that elevate digital interactions, creating
               intuitive and captivating user experiences. I eagerly await
               opportunities to apply and develop my skills further, anticipating

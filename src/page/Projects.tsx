@@ -16,7 +16,7 @@ function Projects() {
   };
 
   const labelMap: { [key: string]: string } = {
-    'UX/UI': 'UX/UI',
+    'UI/UX': 'UI/UX',
     'Front End Development': 'Frontend',
     'Graphic Design': 'Graphic',
     'Digital Marketing': 'DM',

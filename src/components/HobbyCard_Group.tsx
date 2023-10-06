@@ -29,7 +29,7 @@ function HobbyCardGroup() {
         <div className="hobby-card hobby-card-right">
           <div className="hobby-title">
             <img src="/ButtonIcon/coffee.svg" alt="" />
-            <div className="title">Mixlogy</div>
+            <div className="title">Mixology</div>
           </div>
           <p>
             The journey of crafting my own cocktail is fascinating and

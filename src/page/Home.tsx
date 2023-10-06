@@ -52,11 +52,8 @@ function Home() {
               enrolled in different boot camps focused on front-end web
               development, UI/UX design, and digital marketing. These immersive
               experiences have equipped me with adaptability and versatility.
-              Today, I'm deeply passionate about UI/UX, where I aim to craft
-              user-friendly designs that elevate digital interactions, creating
-              intuitive and captivating user experiences. I eagerly await
-              opportunities to apply and develop my skills further, anticipating
-              a future where I can.
+              Today, I eagerly await opportunities to apply and develop my skills 
+              further, anticipating a future where I can.
               <br />
               <br />
               <span className="subtitle">

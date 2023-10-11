@@ -41,6 +41,27 @@ export const ProjectCardData_Mobile: Card[] = [
     isButton: true,
   },
   {
+    image: '/Image/Projects/Projects_WineToTaste.png',
+    labels: [
+      {
+        text: 'Graphic',
+        color: '#A46E51',
+      },
+      {
+        text: 'DM',
+        color: '#9C8580',
+      },
+      {
+        text: 'Video',
+        color: '#6E6456',
+      }
+    ],
+    title: 'Wine To Taste',
+    text: "Wine To Taste, I work part-time as a Sales and Marketing Assistant, creating promotional materials to support marketing.",
+    link: '/Projects/WineToTaste',
+    isButton: true,
+  },
+  {
     image: '/Image/Projects/Projects_NFTMarket.png',
     labels: [
       {
@@ -76,8 +97,8 @@ export const ProjectCardData_Mobile: Card[] = [
     ],
     title: 'Bath & Body Works Capstone Project',
     text: 'Bath & Body Works are assisted in digital marketing to enhance their social media presence and brand awareness.',
-    link: '/Projects/BathBody',
-    isButton: false,
+    link: '/Projects/BathAndBodyWorks',
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_CaptainSoftmeal.png',
@@ -87,10 +108,10 @@ export const ProjectCardData_Mobile: Card[] = [
         color: '#9C8580',
       },
     ],
-    title: 'The Project Futurus & Captain Softmeal Live Project',
+    title: 'Captain Softmeal Live Project',
     text: "Engaging customers for Project Futurus to raise brand awareness, promote Captain Softmeal, and drive eshop traffic.",
     link: '/Projects/SoftMeal',
-    isButton: false,
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_PictureBookCreationCourse.png',
@@ -103,23 +124,6 @@ export const ProjectCardData_Mobile: Card[] = [
     title: 'Picture Book Creation Course',
     text: "Explored storytelling and design in picture book course. Snowball, a cat, longs for the owner's return, revealing pet-owner complexities. Secret message hidden.",
     link: '',
-    isButton: false,
-  },
-  {
-    image: '/Image/Projects/Projects_WineToTaste.png',
-    labels: [
-      {
-        text: 'Graphic',
-        color: '#A46E51',
-      },
-      {
-        text: 'DM',
-        color: '#9C8580',
-      },
-    ],
-    title: 'Wine To Taste',
-    text: "WAt Wine To Taste, I work part-time as a sales assistant and copywriter, creating promotional materials to support marketing.",
-    link: '/Projects/WineToTaste',
     isButton: false,
   },
   {
@@ -136,8 +140,8 @@ export const ProjectCardData_Mobile: Card[] = [
     ],
     title: 'AGR Studio Capstone Project',
     text: "UWE's AGR Studio Final Year Project: Designed Ident styles and slogan animations for movie trailers, showcased in making-of video.",
-    link: '/Projects/ARGStudio',
-    isButton: false,
+    link: '/Projects/AGRStudio',
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_JerviosSolutions.png',

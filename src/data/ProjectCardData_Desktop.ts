@@ -41,6 +41,27 @@ export const ProjectCardData_Desktop: Card[] = [
     isButton: true,
   },
   {
+    image: '/Image/Projects/Projects_WineToTaste.png',
+    labels: [
+      {
+        text: 'Graphic Design',
+        color: '#A46E51',
+      },
+      {
+        text: 'Digital Marketing',
+        color: '#9C8580',
+      },
+      {
+        text: 'Video & Animation',
+        color: '#6E6456',
+      }
+    ],
+    title: 'Wine To Taste',
+    text: "Wine To Taste, located in Kwun Tong, is a liquor store where I work as a part-time Sales and Marketing Assistant. My responsibilities include researching, designing promotional materials, such as Instagram stories, cards, and posters, to support the store's marketing efforts.",
+    link: '/Projects/WineToTaste',
+    isButton: true,
+  },
+  {
     image: '/Image/Projects/Projects_NFTMarket.png',
     labels: [
       {
@@ -76,8 +97,8 @@ export const ProjectCardData_Desktop: Card[] = [
     ],
     title: 'Bath & Body Works Capstone Project',
     text: 'As the first group project in the Digital Marketing Program, we focus on helping Bath & Body Works, a prominent United States brand, boost social media presence and brand awareness. They specializes in offering body care products and scented candles, and have 5 stores in Hong Kong since 2022.',
-    link: '/Projects/BathBody',
-    isButton: false,
+    link: '/Projects/BathAndBodyWorks',
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_CaptainSoftmeal.png',
@@ -87,10 +108,10 @@ export const ProjectCardData_Desktop: Card[] = [
         color: '#9C8580',
       },
     ],
-    title: 'The Project Futurus & Captain Softmeal Live Project',
+    title: 'Captain Softmeal Live Project',
     text: "In the Digital Marketing Program's final project, we were given the opportunity to directly engage with customers and comprehend their project goals. The Project Futurus, a Hong Kong social enterprise, advocates for an age-positive environment. Our objective is to raise brand awareness, promote their Captain Softmeal campaign, and drive traffic to their e-shop, emphasizing a dignified diet for the elderly.",
     link: '/Projects/SoftMeal',
-    isButton: false,
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_PictureBookCreationCourse.png',
@@ -103,23 +124,6 @@ export const ProjectCardData_Desktop: Card[] = [
     title: 'Picture Book Creation Course',
     text: "In this picture book course, I explored storytelling skills and character design concepts through reading different styles of picture books. My story is about Snowball, a complaining cat whose owner's absence leaves her lonely and scared. But after longing for her return, Snowball's feelings shift to annoyance, revealing the complexities of the pet-owner relationship. By the way, there is a secret message hiding inside.",
     link: '',
-    isButton: false,
-  },
-  {
-    image: '/Image/Projects/Projects_WineToTaste.png',
-    labels: [
-      {
-        text: 'Graphic Design',
-        color: '#A46E51',
-      },
-      {
-        text: 'Digital Marketing',
-        color: '#9C8580',
-      },
-    ],
-    title: 'Wine To Taste',
-    text: "Wine To Taste, located in Kwun Tong, is a liquor store where I work as a part-time sales assistant and copywriter. My responsibilities include researching, designing promotional materials, such as Instagram stories, cards, and posters, to support the store's marketing efforts.",
-    link: '/Projects/WineToTaste',
     isButton: false,
   },
   {
@@ -136,8 +140,8 @@ export const ProjectCardData_Desktop: Card[] = [
     ],
     title: 'AGR Studio Capstone Project',
     text: 'AGR Studio, the Final Year Project at the University of the West of England, involved my role in designing various Ident styles and slogan animations for movie trailers. It showcased 4 Ident styles: Watercolor, Electronic, Neon, and Sci-fi. Additionally, a comprehensive making-of video was created to highlight the animation production process.',
-    link: '/Projects/ARGStudio',
-    isButton: false,
+    link: '/Projects/AGRStudio',
+    isButton: true,
   },
   {
     image: '/Image/Projects/Projects_JerviosSolutions.png',

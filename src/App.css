@@ -23,6 +23,7 @@ select {
   text-transform: uppercase !important;
 }
 p,
+.project-detail-text, 
 .caption,
 .button-lg,
 .button-md,
@@ -65,7 +66,8 @@ h4 {
   color: #fff;
 }
 /* Body */
-p {
+p, 
+.project-detail-text {
   font-size: 14px !important;
   margin: 0 !important;
 }
@@ -423,10 +425,10 @@ button.button img {
 }
 /* Content */
 .feature-content-odd {
-  padding: 0 24px 0 0 !important;
+  padding: 0 40px 0 0 !important;
 }
 .feature-content-even {
-  padding: 0 0 0 24px !important;
+  padding: 0 0 0 40px !important;
 }
 .feature-content, h3.feature-title {
   margin-bottom: 24px !important;
@@ -785,6 +787,7 @@ form textarea:focus {
   width: 100%;
   justify-content: center;
   padding: 1rem;
+  padding: 80px;
 }
 .back-to-projects-img-frame {
   height: 25vh;
@@ -898,7 +901,8 @@ select {
     height: 50vh;
   }
   .project-detail-content-row-1,
-  .project-detail-content-row-2 {
+  .project-detail-content-row-2,
+  .project-detail-video  {
     padding: 40px 16px !important;
   }
   .back-to-projects-img-frame {

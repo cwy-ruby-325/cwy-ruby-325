@@ -87,7 +87,7 @@ const ProjectDetail: React.FC<Detail> = ({ ...data }) => {
               )}
               {data.solutions.length > 0 && (
                 <div className="project-detail-solution">
-                  <h2 className="project-detail-title">Solution</h2>
+                  <h2 className="project-detail-title">Solutions</h2>
                   <ul className="project-detail-text">
                     {data.solutions.map((Solution, index) => (
                       <li key={index}>{Solution.item}</li>
